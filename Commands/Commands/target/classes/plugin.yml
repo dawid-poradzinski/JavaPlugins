@@ -1,0 +1,67 @@
+name: Commands
+author: dayid
+main: com.rootekstudio.Commands.Commands
+version: 2.0
+description: Podstawowe komendy dla admina 
+api-version: 1.14
+commands:
+  home:
+   usage: /<command>
+   description: Teleportuje do domu
+  sethome:
+   usage: /<command>
+   description: Ustawia dom
+  freeze:
+   usage: /<command>
+   description: Zamraża gracza
+  unfreeze:
+   usage: /<command>
+   description: Odmraża gracza
+  mute:
+   usage: /<command>
+   description: Mutuje gracza
+  unmute:
+   usage: /<command>
+   description: Odmutowuje gracza
+  tpa:
+   usage: /<command>
+   description: Teleportuje gracza
+  tpaccept:
+   usage: /<command>
+   description: Akcpetuje prośbe o przeteleportowanie
+  tpdeny:
+   usage: /<command>
+   description: Odrzuca prośbę o przeteleportowanie
+  setwarp:
+   usage: /<command>
+   description: Tworzy warpa
+  warp:
+   usage: /<command>
+   description: Tworzy warpa
+  warplist:
+   usage: /<command>
+   description: Wyświetla liste warpów
+  msg:
+   usage: /<command>
+   description: Wysyła prywatną wiadomość
+  r:
+    usage: /<command>
+    description: Szybszy sposób na /msg prowadzący z ostatnią osobą
+  vanish:
+   usage: /<command>
+   description: I tak nie dla cb WoW
+  v:
+   usage: /<command>
+   description: I tak nie dla cb WoW
+  spawn:
+    usage: /<command>
+    description: Teleportuje na spawna
+  gm:
+    usage: /<command>
+    description: zmienia gamemoda
+  register:
+    usage: /<command>
+    description: rejestruje uzytkownika
+  login:
+    usage: /<command>
+    description: loguje uzytkownika

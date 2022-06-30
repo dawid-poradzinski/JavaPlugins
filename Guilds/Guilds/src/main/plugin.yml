@@ -1,0 +1,14 @@
+name: Guilds
+author: dayid
+main: com.rootekstudio.Guilds.Guilds
+version: 1.0
+description: Gildie
+api-version: 1.13
+commands:
+  gl:
+   usage: /<command>
+   description: Wyświetla menu gildi
+  glchat:
+   usage: /<command> <wiadomość>
+   description: Chat dla gildi
+depend: [WorldGuard]
